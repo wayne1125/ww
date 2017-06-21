@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>songShanManage</name>
+	<name>hdAppH5</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>com.aptana.ide.core.unifiedBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>com.aptana.projects.webnature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>0</id>
+			<id>1496884221581</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

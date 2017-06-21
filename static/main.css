@@ -1,0 +1,149 @@
+	body {
+		font-family: sans-serif;
+	}
+
+	.slider-fade-enter-active,
+	.slider-fade-leave-active{
+		transition: all .2s ease;
+	}
+	
+	.slider-fade-enter,
+	.slider-fade-leave-active{
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+	
+	.top{
+		width: 100%;
+	}
+	
+	.top img{
+		width: 100%;
+	}
+	
+	.center{
+		width: 100%;
+		min-height: 50%;
+		background: #fff;
+	}
+	
+	.center .title{
+		font-size: 16px;
+		width: 100%;
+		height: 50px;
+		color: #E71429;
+		line-height: 50px;
+		font-weight: bold;
+	}
+	
+	.submitForm{
+		width: 100%;
+	}
+	
+	.submitForm span{
+		width: 108px;
+		display: inline-block;
+		margin-left: 3%;
+		height: 46px;
+		color: #363636;
+		border: none;
+		font-size: 15px;
+		line-height: 46px;
+	}
+	
+	.submitForm input{
+		width: 55%;
+		height: 46px;
+		color: #999;
+		border: none;
+		font-size: 15px;
+		line-height: 46px;
+		margin-left: 13%;
+		margin: 1px 0;
+		outline: none;
+	}
+	
+	.submitForm label{
+		display: inline-block;
+		height: 50px;
+		color: #999;
+		font-size: 15px;
+		line-height: 50px;
+	}
+	
+	.submitForm i {
+		color: red;
+	}
+	
+	input.radio{
+		margin-left: 3%;
+		width: 15px;
+		height: 14px;
+	}
+	
+	
+	input.club{
+		width: 60%;
+		margin-left: 0;
+	}
+	
+
+	
+	.bottom{
+		width: 100%;
+		height: 15%;
+		padding-top: 5%;
+		background: #f2f2f2;
+	}
+	
+	.submit{
+		height: 40px;
+		line-height: 40px;
+		font-size: 15px;
+		color: #fff;
+		width: 78%;
+		margin: 0% 11% 3% 11%;
+		background: #e71429;
+		border-radius: 2px;
+		box-shadow: 2px 2px 5px #d45757;
+	}
+	
+	input.checkbox{
+		width: 16px;
+		height: 16px;
+	}
+	
+	.read{
+		font-size: 15px;
+		color: #9c9797;
+	}
+	
+	.applyKnow{
+		font-size: 15px;
+		color: #252525;
+		text-decoration: none;
+	}
+	
+	.red{
+		font-size: 40px;
+		color: red;
+	}
+	
+	.bottom{
+		position: relative;
+	}
+	
+	.alert{
+		background: #e71429;
+		color: #fff;
+		text-align: center;
+		line-height: 40px;
+		width: 50%;
+		height: 40px;
+		position: absolute;
+		top: -140%;
+		margin-left: 25%;
+		z-index: 100000;
+		border-radius: 20px;
+		box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.42);
+	}
